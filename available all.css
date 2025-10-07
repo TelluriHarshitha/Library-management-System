@@ -1,0 +1,40 @@
+.book-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+    padding: 30px;
+    gap: 30px;
+    margin: auto;
+    max-width: 1000px;
+}
+.gallery{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 15px;
+    transition: transform 0.3s ease;
+  }
+  .gallery img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .gallery button{
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  .gallery button a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    /* background-color: aqua; */
+    color: black;
+  }
+  .gallery button a:hover{
+    background-color: rgb(194, 38, 186);
+    
+  }
+  
+  

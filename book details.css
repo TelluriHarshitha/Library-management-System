@@ -1,0 +1,77 @@
+ 
+           header{
+            background-color: rgb(229, 150, 140);
+            text-align: center;
+            justify-content: center;
+            padding: 20px;
+           }
+           h1{
+            font-size:30px;
+            font-weight:bold;
+           }
+           body{
+            background-color: rgb(240, 170, 228);
+            
+           }
+           
+           .search-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            margin-top: 20px;
+          }
+
+          .search-input {
+            width: 300px;
+            padding: 10px 15px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            font-size: 16px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            outline: none;
+          }
+
+          .search-input:focus {
+            border-color: #336666;
+          }
+
+          .search-button {
+             width: 320px;
+            padding: 10px;
+            background-color: #336666;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+          }
+
+         .search-button:hover {
+          background-color: #264d4d;
+         }
+           
+           .book-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+           }
+
+        .book-btn {
+            padding: 10px 20px;
+            text-decoration: none;
+            border: 2px solid #336666; /* adjust based on your site's theme */
+            border-radius: 10px;
+            font-size: 16px;
+            color: #336666;
+            background-color: #f9fdf9;
+            transition: all 0.3s ease;
+           }
+
+        .book-btn:hover {
+            background-color: teal;
+            color: white;
+          }
+        
